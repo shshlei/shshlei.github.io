@@ -64,7 +64,7 @@
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/09/05/hello-world/" class="article-date">
-  <time datetime="2016-09-05T14:36:15.378Z" itemprop="datePublished">2016-09-05</time>
+  <time datetime="2016-09-05T14:42:15.476Z" itemprop="datePublished">2016-09-05</time>
 </a>
     
   </div>
@@ -96,7 +96,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/09/05/hello-world/" data-id="cisq5h3f60002465yx74ifjso" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/09/05/hello-world/" data-id="cisq5ot9x0002lf5yia4n6whk" class="article-share-link">Share</a>
       
       
     </footer>
@@ -109,7 +109,7 @@
     <article id="post-Create-a-blog-with-hexo" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/09/05/Create-a-blog-with-hexo/" class="article-date">
-  <time datetime="2016-09-05T14:36:15.367Z" itemprop="datePublished">2016-09-05</time>
+  <time datetime="2016-09-05T14:42:15.465Z" itemprop="datePublished">2016-09-05</time>
 </a>
     
   </div>
@@ -128,25 +128,29 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <hr>
-<p>##1. Prerequisites</p>
-<h3 id="1-1-Installing-Nodejs-npm-and-hexo"><a href="#1-1-Installing-Nodejs-npm-and-hexo" class="headerlink" title="1.1 Installing Nodejs, npm and hexo"></a>1.1 Installing Nodejs, npm and hexo</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-get install nodejs</div><div class="line">``` </div><div class="line"></div><div class="line">``` </div><div class="line">$ sudo apt-get install npm</div><div class="line">``` </div><div class="line"></div><div class="line">``` </div><div class="line">$ sudo npm install --unsafe-perm -g hexo</div><div class="line">``` </div><div class="line"></div><div class="line"></div><div class="line">   While installing hexo, if you cannnot get it to install on you system with the error **&quot;node : not found&quot;**. It is because Debian has renamed the command node to nodejs, you should reintall nodejs through the below commond and then install hexo. Meanwhile if you use the commond  **sudo npm install hexo -g** or **sudo npm install hexo-cli -g**, hexo cannot be installed either.</div></pre></td></tr></table></figure>
-<p>$ sudo apt-get update &amp;&amp; sudo apt-get install nodejs-legacy<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">---</div><div class="line"></div><div class="line">###1.2 Register github account and create a repository</div><div class="line"></div><div class="line">Click [here](https://github.com/) and follow the steps to register a github acount, and then create a repository with the name **username.github.io**, for example **shshlei.github.io**.</div><div class="line"></div><div class="line">## 2. Create a blg</div><div class="line"></div><div class="line">###2.1 Init</div><div class="line"> Initialize hexo to the directory you specify.</div></pre></td></tr></table></figure></p>
-<p>hexo init blog<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div><div class="line">###2.2 Genarate static page</div></pre></td></tr></table></figure></p>
-<p>cd blog</p>
-<p>sudo npm install<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div><div class="line">###2.3 Local launch</div></pre></td></tr></table></figure></p>
-<p>hexo server<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">After all, visit https://0.0.0.0:4000/ and you can see the blog.</div><div class="line"></div><div class="line">## 3. Config github</div><div class="line"></div><div class="line">First, let&apos;s see what are in the directory **blog**.</div></pre></td></tr></table></figure></p>
-<p>ls<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div><div class="line"> As you can,there are some files and folders, &quot;_config.yml  db.json  package.json  node_modules  public source　scaffolds themes&quot;.</div><div class="line"> </div><div class="line">Change the file _config.yml to associate the github and local site.</div></pre></td></tr></table></figure></p>
-<p>vim _config.yml<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">To the last, modify like below, and change &apos;shshlei&apos; to you username.</div><div class="line">**note: there is a space behind &apos;:&apos;.**</div></pre></td></tr></table></figure></p>
-<p>  deploy:<br>      type: git<br>      repository: <a href="https://github.com/shshlei/shshlei.github.io.git" target="_blank" rel="external">https://github.com/shshlei/shshlei.github.io.git</a><br>      branch: master<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">Run the following command to use github dispose.</div></pre></td></tr></table></figure></p>
-<p>sudo npm install hexo-deployer-git –save<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">Last</div></pre></td></tr></table></figure></p>
-<p>hexo deploy<br>```</p>
+        <p>##1. Prerequisites</p>
+<h3 id="1-1-Installing-Nodejs-npm-and-hexo"><a href="#1-1-Installing-Nodejs-npm-and-hexo" class="headerlink" title="1.1 Installing Nodejs, npm and hexo"></a>1.1 Installing Nodejs, npm and hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-get install nodejs</div><div class="line">``` </div><div class="line"></div><div class="line">``` bash</div><div class="line">$ sudo apt-get install npm</div><div class="line">``` </div><div class="line"></div><div class="line">``` bash</div><div class="line">$ sudo npm install --unsafe-perm -g hexo</div><div class="line">``` </div><div class="line"></div><div class="line"></div><div class="line">   While installing hexo, <span class="keyword">if</span> you cannnot get it to install on you system with the error **<span class="string">"node : not found"</span>**. It is because Debian has renamed the <span class="built_in">command</span> node to nodejs, you should reintall nodejs through the below commond and <span class="keyword">then</span> install hexo. Meanwhile <span class="keyword">if</span> you use the commond  **sudo npm install hexo -g** or **sudo npm install hexo-cli -g**, hexo cannot be installed either.</div><div class="line">  </div><div class="line">```bash</div><div class="line">$ sudo apt-get update &amp;&amp; sudo apt-get install nodejs-legacy</div><div class="line">``` </div><div class="line"></div><div class="line"><span class="comment">###1.2 Register github account and create a repository</span></div><div class="line"></div><div class="line">Click [here](https://github.com/) and follow the steps to register a github acount, and <span class="keyword">then</span> create a repository with the name **username.github.io**, <span class="keyword">for</span> example **shshlei.github.io**.</div><div class="line"></div><div class="line"><span class="comment">## 2. Create a blg</span></div><div class="line"></div><div class="line"><span class="comment">###2.1 Init</span></div><div class="line"> Initialize hexo to the directory you specify.</div><div class="line"> </div><div class="line">```bash</div><div class="line">hexo init blog</div></pre></td></tr></table></figure>
+<p>###2.2 Genarate static page</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> blog</div><div class="line"></div><div class="line">sudo npm install</div></pre></td></tr></table></figure>
+<p>###2.3 Local launch<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo server</div></pre></td></tr></table></figure></p>
+<p>After all, visit <a href="https://0.0.0.0:4000/" target="_blank" rel="external">https://0.0.0.0:4000/</a> and you can see the blog.</p>
+<h2 id="3-Config-github"><a href="#3-Config-github" class="headerlink" title="3. Config github"></a>3. Config github</h2><p>First, let’s see what are in the directory <strong>blog</strong>.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ls</div></pre></td></tr></table></figure>
+<p> As you can,there are some files and folders, “_config.yml  db.json  package.json  node_modules  public source　scaffolds themes”.</p>
+<p>Change the file _config.yml to associate the github and local site.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim _config.yml</div></pre></td></tr></table></figure>
+<p>To the last, modify like below, and change ‘shshlei’ to you username.<br><strong>note: there is a space behind ‘:’.</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">    <span class="built_in">type</span>: git</div><div class="line">    repository: https://github.com/shshlei/shshlei.github.io.git</div><div class="line">    branch: master</div></pre></td></tr></table></figure>
+<p>Run the following command to use github dispose.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
+<p>Last</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo deploy</div></pre></td></tr></table></figure>
 <p>Now, you can visit the website <a href="https://shshlei.github.io/" target="_blank" rel="external">https://shshlei.github.io/</a> to enjoy you blog.</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/09/05/Create-a-blog-with-hexo/" data-id="cisq5h3ew0000465yzesd6522" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/09/05/Create-a-blog-with-hexo/" data-id="cisq5ot9m0000lf5yeebcrbp7" class="article-share-link">Share</a>
       
       
     </footer>
@@ -182,7 +186,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/09/05/Test/" data-id="cisq5h3f30001465y77xt2l3s" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/09/05/Test/" data-id="cisq5ot9u0001lf5yx51wpwoh" class="article-share-link">Share</a>
       
       
     </footer>
