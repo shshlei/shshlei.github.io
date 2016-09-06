@@ -48,9 +48,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -61,10 +61,47 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-Create-a-blog-with-hexo" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/09/06/Create-a-blog-with-hexo/" class="article-date">
+  <time datetime="2016-09-06T01:09:42.322Z" itemprop="datePublished">2016-09-06</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/09/06/Create-a-blog-with-hexo/">Create personal blog with hexo</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="1-Prerequisites"><a href="#1-Prerequisites" class="headerlink" title="1. Prerequisites"></a>1. Prerequisites</h2><h3 id="1-1-Installing-Nodejs-npm-and-hexo"><a href="#1-1-Installing-Nodejs-npm-and-hexo" class="headerlink" title="1.1 Installing Nodejs, npm and hexo"></a>1.1 Installing Nodejs, npm and hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-get install nodejs</div><div class="line"></div><div class="line">$ sudo apt-get install npm</div><div class="line"></div><div class="line">$ sudo npm install --unsafe-perm -g hexo</div><div class="line">``` </div><div class="line"></div><div class="line">While installing hexo, <span class="keyword">if</span> you cannnot get it to install on you system with the error **<span class="string">"node : not found"</span>**. It is because Debian has renamed the <span class="built_in">command</span> node to nodejs, you should reintall nodejs through the below commond and <span class="keyword">then</span> install hexo. Meanwhile <span class="keyword">if</span> you use the commond  **sudo npm install hexo -g** or **sudo npm install hexo-cli -g**, hexo cannot be installed either.</div><div class="line">  </div><div class="line"></div><div class="line">```bash</div><div class="line">$ sudo apt-get update &amp;&amp; sudo apt-get install nodejs-legacy</div><div class="line">``` </div><div class="line">  </div><div class="line"><span class="comment">### 1.2 Register github account and create a repository</span></div><div class="line"></div><div class="line">Click [here](https://github.com/) and follow the steps to register a github acount, and <span class="keyword">then</span> create a repository with the name **username.github.io**, <span class="keyword">for</span> example **shshlei.github.io**.</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">## 2. Create a blg</span></div><div class="line"></div><div class="line"><span class="comment">### 2.1 Init</span></div><div class="line">Initialize hexo to the directory you specify.</div><div class="line"> </div><div class="line">```bash</div><div class="line">$ hexo init blog</div></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/09/06/Create-a-blog-with-hexo/" data-id="cisqs3prn0002up5yy7qgh9mo" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/09/06/hello-world/" class="article-date">
-  <time datetime="2016-09-06T01:08:31.904Z" itemprop="datePublished">2016-09-06</time>
+  <time datetime="2016-09-06T01:09:42.312Z" itemprop="datePublished">2016-09-06</time>
 </a>
     
   </div>
@@ -96,43 +133,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/09/06/hello-world/" data-id="cisqs27fk0001sj5yavcp7nd3" class="article-share-link">Partager</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-Create-a-blog-with-hexo" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/09/06/Create-a-blog-with-hexo/" class="article-date">
-  <time datetime="2016-09-06T01:08:31.897Z" itemprop="datePublished">2016-09-06</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/09/06/Create-a-blog-with-hexo/">Create personal blog with hexo</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="1-Prerequisites"><a href="#1-Prerequisites" class="headerlink" title="1. Prerequisites"></a>1. Prerequisites</h2><h3 id="1-1-Installing-Nodejs-npm-and-hexo"><a href="#1-1-Installing-Nodejs-npm-and-hexo" class="headerlink" title="1.1 Installing Nodejs, npm and hexo"></a>1.1 Installing Nodejs, npm and hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-get install nodejs</div><div class="line"></div><div class="line">$ sudo apt-get install npm</div><div class="line"></div><div class="line">$ sudo npm install --unsafe-perm -g hexo</div><div class="line">``` </div><div class="line"></div><div class="line">While installing hexo, <span class="keyword">if</span> you cannnot get it to install on you system with the error **<span class="string">"node : not found"</span>**. It is because Debian has renamed the <span class="built_in">command</span> node to nodejs, you should reintall nodejs through the below commond and <span class="keyword">then</span> install hexo. Meanwhile <span class="keyword">if</span> you use the commond  **sudo npm install hexo -g** or **sudo npm install hexo-cli -g**, hexo cannot be installed either.</div><div class="line">  </div><div class="line"></div><div class="line">```bash</div><div class="line">$ sudo apt-get update &amp;&amp; sudo apt-get install nodejs-legacy</div><div class="line">``` </div><div class="line">  </div><div class="line"><span class="comment">### 1.2 Register github account and create a repository</span></div><div class="line"></div><div class="line">Click [here](https://github.com/) and follow the steps to register a github acount, and <span class="keyword">then</span> create a repository with the name **username.github.io**, <span class="keyword">for</span> example **shshlei.github.io**.</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">## 2. Create a blg</span></div><div class="line"></div><div class="line"><span class="comment">### 2.1 Init</span></div><div class="line">Initialize hexo to the directory you specify.</div><div class="line"> </div><div class="line">```bash</div><div class="line">$ hexo init blog</div></pre></td></tr></table></figure>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/09/06/Create-a-blog-with-hexo/" data-id="cisqs27fe0000sj5yjl7huen4" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2016/09/06/hello-world/" data-id="cisqs3prc0001up5yyyadmghx" class="article-share-link">Share</a>
       
       
     </footer>
@@ -184,7 +185,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/09/05/Test/" data-id="cisqs27fp0002sj5yhwe3f9dx" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2016/09/05/Test/" data-id="cisqs3pr60000up5yk00szmbs" class="article-share-link">Share</a>
       
       
     </footer>
@@ -219,16 +220,16 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Articles récents</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
           <li>
-            <a href="/2016/09/06/hello-world/">Hello World</a>
+            <a href="/2016/09/06/Create-a-blog-with-hexo/">Create personal blog with hexo</a>
           </li>
         
           <li>
-            <a href="/2016/09/06/Create-a-blog-with-hexo/">Create personal blog with hexo</a>
+            <a href="/2016/09/06/hello-world/">Hello World</a>
           </li>
         
           <li>
@@ -248,7 +249,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2016 Shshlei<br>
-      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
