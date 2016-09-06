@@ -23,7 +23,7 @@ $ sudo apt-get install npm
 $ sudo npm install --unsafe-perm -g hexo
 
    While installing hexo, if you cannnot get it">
-<meta property="og:updated_time" content="2016-09-06T00:45:40.000Z">
+<meta property="og:updated_time" content="2016-09-06T00:47:36.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Test">
 <meta name="twitter:description" content="1. Prerequisites1.1 Installing Nodejs, npm and hexo$ sudo apt-get install nodejs
@@ -70,9 +70,9 @@ $ sudo npm install --unsafe-perm -g hexo
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -110,11 +110,13 @@ $ sudo apt-get install npm
 $ sudo npm install --unsafe-perm -g hexo
 </code></pre>
 <p>   While installing hexo, if you cannnot get it to install on you system with the error <strong>“node : not found”</strong>. It is because Debian has renamed the command node to nodejs, you should reintall nodejs through the below commond and then install hexo. Meanwhile if you use the commond  <strong>sudo npm install hexo -g</strong> or <strong>sudo npm install hexo-cli -g</strong>, hexo cannot be installed either.</p>
+<pre><code class="bash">$ sudo apt-get update &amp;&amp; sudo apt-get install nodejs-legacy
+</code></pre>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/09/05/Test/" data-id="cisqr59490000pw5ybo7phm0r" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2016/09/05/Test/" data-id="cisqr59490000pw5ybo7phm0r" class="article-share-link">Share</a>
       
       
     </footer>
@@ -123,11 +125,11 @@ $ sudo npm install --unsafe-perm -g hexo
     
 <nav id="article-nav">
   
-    <a href="/2016/09/06/Create-a-blog-with-hexo/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Récent</strong>
+    <a href="/2016/09/06/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          Create personal blog with hexo
+          Hello World
         
       </div>
     </a>
@@ -162,16 +164,16 @@ $ sudo npm install --unsafe-perm -g hexo
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Articles récents</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
           <li>
-            <a href="/2016/09/06/hello-world/">Hello World</a>
+            <a href="/2016/09/06/Create-a-blog-with-hexo/">Create personal blog with hexo</a>
           </li>
         
           <li>
-            <a href="/2016/09/06/Create-a-blog-with-hexo/">Create personal blog with hexo</a>
+            <a href="/2016/09/06/hello-world/">Hello World</a>
           </li>
         
           <li>
@@ -191,7 +193,7 @@ $ sudo npm install --unsafe-perm -g hexo
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2016 Shshlei<br>
-      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
