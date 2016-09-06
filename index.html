@@ -64,7 +64,7 @@
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/09/06/hello-world/" class="article-date">
-  <time datetime="2016-09-06T00:35:38.497Z" itemprop="datePublished">2016-09-06</time>
+  <time datetime="2016-09-06T00:38:44.437Z" itemprop="datePublished">2016-09-06</time>
 </a>
     
   </div>
@@ -96,7 +96,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/09/06/hello-world/" data-id="cisqqvwqp0002iw5y1t5pwvqs" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/09/06/hello-world/" data-id="cisqqzw7p0002le5yb1avao5y" class="article-share-link">Share</a>
       
       
     </footer>
@@ -109,7 +109,7 @@
     <article id="post-Create-a-blog-with-hexo" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/09/06/Create-a-blog-with-hexo/" class="article-date">
-  <time datetime="2016-09-06T00:35:38.484Z" itemprop="datePublished">2016-09-06</time>
+  <time datetime="2016-09-06T00:38:44.427Z" itemprop="datePublished">2016-09-06</time>
 </a>
     
   </div>
@@ -128,7 +128,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="1-Prerequisites"><a href="#1-Prerequisites" class="headerlink" title="1. Prerequisites"></a>1. Prerequisites</h2><h3 id="1-1-Installing-Nodejs-npm-and-hexo"><a href="#1-1-Installing-Nodejs-npm-and-hexo" class="headerlink" title="1.1 Installing Nodejs, npm and hexo"></a>1.1 Installing Nodejs, npm and hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-get install nodejs</div><div class="line">``` </div><div class="line"></div><div class="line">``` bash</div><div class="line">$ sudo apt-get install npm</div><div class="line">``` </div><div class="line"></div><div class="line">``` bash</div><div class="line">$ sudo npm install --unsafe-perm -g hexo</div><div class="line">``` </div><div class="line">   While installing hexo, <span class="keyword">if</span> you cannnot get it to install on you system with the error **<span class="string">"node : not found"</span>**. It is because Debian has renamed the <span class="built_in">command</span> node to nodejs, you should reintall nodejs through the below commond and <span class="keyword">then</span> install hexo. Meanwhile <span class="keyword">if</span> you use the commond  **sudo npm install hexo -g** or **sudo npm install hexo-cli -g**, hexo cannot be installed either.</div><div class="line">  </div><div class="line">```bash</div><div class="line">$ sudo apt-get update &amp;&amp; sudo apt-get install nodejs-legacy</div><div class="line">``` </div><div class="line"></div><div class="line"><span class="comment">### 1.2 Register github account and create a repository</span></div><div class="line"></div><div class="line">Click [here](https://github.com/) and follow the steps to register a github acount, and <span class="keyword">then</span> create a repository with the name **username.github.io**, <span class="keyword">for</span> example **shshlei.github.io**.</div><div class="line"></div><div class="line"><span class="comment">## 2. Create a blg</span></div><div class="line"></div><div class="line"><span class="comment">### 2.1 Init</span></div><div class="line"> Initialize hexo to the directory you specify.</div><div class="line"> </div><div class="line">```bash</div><div class="line">hexo init blog</div></pre></td></tr></table></figure>
+        <h2 id="1-Prerequisites"><a href="#1-Prerequisites" class="headerlink" title="1. Prerequisites"></a>1. Prerequisites</h2><h3 id="1-1-Installing-Nodejs-npm-and-hexo"><a href="#1-1-Installing-Nodejs-npm-and-hexo" class="headerlink" title="1.1 Installing Nodejs, npm and hexo"></a>1.1 Installing Nodejs, npm and hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-get install nodejs</div><div class="line">``` </div><div class="line"></div><div class="line">``` bash</div><div class="line">$ sudo apt-get install npm</div><div class="line">``` </div><div class="line"></div><div class="line">``` bash</div><div class="line">$ sudo npm install --unsafe-perm -g hexo</div><div class="line">``` </div><div class="line"></div><div class="line">   While installing hexo, <span class="keyword">if</span> you cannnot get it to install on you system with the error **<span class="string">"node : not found"</span>**. It is because Debian has renamed the <span class="built_in">command</span> node to nodejs, you should reintall nodejs through the below commond and <span class="keyword">then</span> install hexo. Meanwhile <span class="keyword">if</span> you use the commond  **sudo npm install hexo -g** or **sudo npm install hexo-cli -g**, hexo cannot be installed either.</div><div class="line">  </div><div class="line">```bash</div><div class="line">$ sudo apt-get update &amp;&amp; sudo apt-get install nodejs-legacy</div><div class="line">``` </div><div class="line"></div><div class="line"><span class="comment">### 1.2 Register github account and create a repository</span></div><div class="line"></div><div class="line">Click [here](https://github.com/) and follow the steps to register a github acount, and <span class="keyword">then</span> create a repository with the name **username.github.io**, <span class="keyword">for</span> example **shshlei.github.io**.</div><div class="line"></div><div class="line"><span class="comment">## 2. Create a blg</span></div><div class="line"></div><div class="line"><span class="comment">### 2.1 Init</span></div><div class="line"> Initialize hexo to the directory you specify.</div><div class="line"> </div><div class="line">```bash</div><div class="line">hexo init blog</div></pre></td></tr></table></figure>
 <h3 id="2-2-Genarate-static-page"><a href="#2-2-Genarate-static-page" class="headerlink" title="2.2 Genarate static page"></a>2.2 Genarate static page</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> blog</div><div class="line"></div><div class="line">sudo npm install</div></pre></td></tr></table></figure>
 <h3 id="2-3-Local-launch"><a href="#2-3-Local-launch" class="headerlink" title="2.3 Local launch"></a>2.3 Local launch</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo server</div></pre></td></tr></table></figure>
 <p>After all, visit <a href="https://0.0.0.0:4000/" target="_blank" rel="external">https://0.0.0.0:4000/</a> and you can see the blog.</p>
@@ -148,7 +148,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/09/06/Create-a-blog-with-hexo/" data-id="cisqqvwqd0000iw5y1i9r6yvy" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/09/06/Create-a-blog-with-hexo/" data-id="cisqqzw7g0000le5ywiacdqs7" class="article-share-link">Share</a>
       
       
     </footer>
@@ -186,7 +186,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/09/05/Test/" data-id="cisqqvwql0001iw5yejznl9as" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/09/05/Test/" data-id="cisqqzw7n0001le5yh6uy5sns" class="article-share-link">Share</a>
       
       
     </footer>
